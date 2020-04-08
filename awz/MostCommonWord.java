@@ -1,32 +1,40 @@
 //https://leetcode.com/problems/most-common-word/
-/**
- * @param {string} paragraph
- * @param {string[]} banned
- * @return {string}
- */
-var mostCommonWord = function(paragraph, banned) {
-    var paragraphModified = paragraph.toLowerCase()
-    .replace(/\!/g,' ')
-    .replace(/\?/g,' ')
-    .replace(/\'/g,' ')
-    .replace(/\,/g,' ')
-    .replace(/\;/g,' ')
-    .replace(/\./g,' ');
-    var tokens = paragraphModified.split(' ');
-    var occurances = {}
-    for(var i=0;i<tokens.length;i++){
-        var tokenTrimmed=tokens[i].trim();
-        if(banned.indexOf(tokenTrimmed) < 0 && tokenTrimmed.length > 0){
-            occurances[tokenTrimmed] = occurances[tokenTrimmed] ? occurances[tokenTrimmed] + 1 : 1;
+class Solution {
+    public String mostCommonWord(String paragraph, String[] banned) {
+        Map<String,Integer> occurances = new HashMap<>();
+        Map<String,Integer> bannedMap = new HashMap<>();
+        for(String word : banned)
+            bannedMap.put(word,1);
+        StringBuilder word = new StringBuilder();
+        for(int i=0;i<paragraph.length();i++){
+            char c = paragraph.charAt(i);
+            if(Character.isLetter(c)){
+                word.append(Character.toLowerCase(c));
+            }else if(word.length() > 0){
+                String token = word.toString();
+                updateMap(occurances,token);
+                word = new StringBuilder();
+            }
         }
-    }
-    var retValue = null;
-    var maxOccurances = -1;
-    for(var key of Object.keys(occurances)){
-        if(occurances[key] > maxOccurances){
-            maxOccurances = occurances[key];
-            retValue = key;
+        if(word.length() > 0){
+                String token = word.toString();
+                updateMap(occurances,token);
         }
+        int maxFound = -1;
+        String maxWord = "";
+        for (Map.Entry<String,Integer> entry : occurances.entrySet()){
+            if(!bannedMap.containsKey(entry.getKey()) && entry.getValue() > maxFound){
+                maxWord = entry.getKey();
+                maxFound = entry.getValue();
+            }
+        }
+        return maxWord;
     }
-    return retValue;
-};
+    
+    public void updateMap(Map<String,Integer> wordMap,String token){
+        if(wordMap.containsKey(token))
+            wordMap.put(token,wordMap.get(token)+1);
+        else
+            wordMap.put(token,1);
+    }
+}
