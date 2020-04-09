@@ -1,0 +1,6 @@
+1. What is algorithm. Algorithm -> Pesudo Code -> Model Of Computation
+2. Model Of Computation -> What Operations an algorithm is allowed, Cost (time) of each operation
+3. Random Access Machine
+4. Pointer Machine
+5. Python Model a) List = Array b) Object attributes Thetha(1) for considerable number of attributes c) List append -table doubling d) L = L1 + L2 e) x in L f) length of L g) Sorting L - Comparison Sort h) Dictionary I) Long Integers J) Heap
+6. Document Distance Problem

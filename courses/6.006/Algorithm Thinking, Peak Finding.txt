@@ -1,0 +1,5 @@
+1. Peak Finder Problem - For one dimensional version b is peak b>=a and c>=b; On edges we will compare only with before/after; Find a pink if it exists; 
+2. Thetha vs Big 0
+3. Divide and conquer using recursion Theta(logn) vs Theta(n)
+4. 2 Version Of Peak Finder Problem
+5. Greedy Ascent Algorithm - Theta(nm) => Theta(n2)

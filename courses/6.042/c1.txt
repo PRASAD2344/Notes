@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B&index=1
+1. For All natural numbers, npow2+n+41 is a prime.  It is a false
+2. apow4+bpow4+cpow4=dpow4, has no positive integer solutions. It is a false
+3. 313(xpow3+ypow3)=zpow3, has no positive integer solutions. It is a false
+4. The regions in any map can be in 4 colours, so that all adjacent regions have different colors. It is a false - 4 colour theorem
+5. Every even integer but 2 is a sum of two primes. 24=11+13; It is a false.
+6. For all n belongs to Z, n>=2 => npow2>=4; 
+7. Implication table. Implies;Pigs Fly=> I am king
+8. Implication table. Iff;
+9. Proposition, Predicates, Axioms - Proposition that is assumed true, consistent(can’t be proved false) and complete(every proposition is either true or false).
+10. a=b,b=c,a=c; 
