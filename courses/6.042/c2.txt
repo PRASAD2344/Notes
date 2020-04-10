@@ -1,1 +1,9 @@
 https://www.youtube.com/watch?v=z8HKWUWS-lA&list=PLB7540DEDD482705B&index=2
+1. Proof by contradiction
+2. Proove sqrt(2) is a irratonal
+3. False Proof - 90 > 92, images. Triangle Stuff.(9*10)
+4. Proof By Induction
+5. Sum of natural numbers
+6. For all natural numbers, 3|(npow3-n)
+7. False Proof - All horses are of same color
+8. Statue problem, L shaped tiles with a center square missing for statue
