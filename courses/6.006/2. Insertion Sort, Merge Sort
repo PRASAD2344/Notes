@@ -1,0 +1,39 @@
+https://www.youtube.com/watch?v=Kg4bqzAqRBM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=3
+Why sorting?
+Finding a median?
+Binary Search on sorted list - logn - Divide and conquer alogrithm
+Data Compresion
+
+Insertion Sort - O(npow2)
+Pairwise swaps down to the correct position
+Different with selection and bubble sorts
+n-1 steps and each step has n swaps & compares in worst case
+Couting comparisions
+Binary search optimizations O(nlogn), gives us logn for compares but gives us O(n) for swaps leaving us with O(npow2) overall complexity
+
+Merge Sort - O(nlogn)
+Divide and conquer
+Two Finger alogrithm
+O(n) complexity for merging
+O(logn) complexity for dividing
+We have O(n) operations at each level and O(logn) levels
+
+
+Insertion over merge sort
+Inplace sorting - 0(1) auxillary space
+Copy of array in merge sort - O(n) auxiallary space
+Inplace merge sort
+
+Python running spaces
+Merge - 2.2 nlogn micro seconds
+Insertion - 0.2npow2 micro seconds
+Insertion sort in c - 0.01npow2 micro seconds
+
+Recursive tree
+Krammy merge sort
+Different versions of merge routine, we have different complexity. We have different complexity at each level for different merge routines.
+
+
+
+
+
