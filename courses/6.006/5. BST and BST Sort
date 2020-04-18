@@ -15,7 +15,7 @@ BST -
 Insertion O(h)
 Find Min O(h)
 Find Max O(h)
-Next Larger O(h)
+Next Larger/Next Smaller O(h)
 
 Rank(t) - How many planes are expected to land at times <= t?
 Augment the BST structure to look at the number of nodes below

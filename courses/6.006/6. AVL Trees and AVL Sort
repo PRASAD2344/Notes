@@ -1,0 +1,5 @@
+Height of a node = max(height(left),height(right))+1; For empty child we will height as -1 to eliminate few checks
+Datastructure augmentation to store height of every node
+AVL trees- Require height of left & right child to be differed by at most -1 to +1
+AVL trees are balanced i.e., height of tree should be log(n)
+
