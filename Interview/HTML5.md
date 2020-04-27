@@ -1,0 +1,3 @@
+New features
+Canvas
+Storage
