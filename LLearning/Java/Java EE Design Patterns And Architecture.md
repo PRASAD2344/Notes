@@ -49,3 +49,40 @@ More flexible than inheritances
 Logger scenario - Customize third party logger api
 @Qualifier, @Retention, @Target
 
+Monolithic and Microservice Architecture
+
+
+CQRS Architecture
+Command Query Responsibility Segregation
+Command That Performs An Action But No Return
+Query That Returns Data But No Operation
+Not Always Desirable - Stack pop & DB Update and returning updated record
+Single DB Structure
+Two DB Structure - Eventual Consistency - Much more performance
+Event-sourcing Structure - Event Store - Banking Systems - Event Logs
+Advantages - 
+Avoid hidden side effects
+Fits the domain-centric model
+Optimized for the operation they need to peform i.e., Read & Write
+Disadvantages -
+Complex and difficult of maintain as we have different design on different tracks
+More expensive as we need to maintain different data stores, event stores and stacks
+
+Screaming Architecture
+Domain Centric
+New Developer will get up to speed in less time
+Instead of Controller, View, Model, View, and Mobile folders we will have Customer, Employees, Inventory, Sales etc folders
+Make the intent obvious, based around functional requirements rather than technical requirements
+Hides the intent of application
+Logical Cohesive vs Functional Cohesive
+Disadvantages - 
+Loose convention to configuration which were required for IDE's we need some manual configuration
+Lose some automation
+More expensive at first, as we have some configurations to add
+
+Domain centric Architecture
+
+
+Database centric Architecture
+
+
