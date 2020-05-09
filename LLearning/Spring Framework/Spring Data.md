@@ -84,7 +84,24 @@
 8. Mono(0,1) vs Flux(0,Many)
 
 >### **Querying with spring data**
-1. Property expression query methods - spring commons 
-
-
-
+1. Property expression query methods - spring commons - BeanUtils & Reflections - Incorrect, we will get exception at app starting time instead of at run time.
+   ```java
+   findByAge(20)
+   findByAttendeeLastName('prasad')
+   findByFullTimeOrAgeLessThan(false,20)
+   findByAgeGreaterThan(20)
+   findByFullTimeOrAgeLessThan(true,20)
+   findByAttendeeLastNameIgnoreCase('prasad')
+   findByAttendeeLastNameLike('prasad')
+   findFirstByOrderByAttendeeLastNameAsc()
+   findTopByOrderByAgeDesc()
+   findTop3ByOrderByAgeDesc()
+   ```
+2. @Query annotation - JPQL or SQL(nativeQuery=true) - Method names get too long, join queries - Even for native queries, the result will be mapped to resulting entity
+  ```java
+    @Query("select c from Course c where c.department.chair.member.lastName=:chair")
+    List<Course> findByChairLastName(@Param("chair") String chairLastName);
+    @Query("select c from Course c where c.department.chair.member.lastName= ?1")
+    List<Course> findByChairLastName(String chairLastName);
+  ```
+3. 
