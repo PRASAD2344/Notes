@@ -1,0 +1,1 @@
+1. [Bitmap index](https://en.wikipedia.org/wiki/Bitmap_index)

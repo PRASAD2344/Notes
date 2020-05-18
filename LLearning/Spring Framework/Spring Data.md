@@ -104,4 +104,26 @@
     @Query("select c from Course c where c.department.chair.member.lastName= ?1")
     List<Course> findByChairLastName(String chairLastName);
   ```
-3. 
+3. Paging
+  ```java
+    public interface CourseRepository extends CrudRepository<Course,String>{
+      Page<Course> findByCredits(int credits,Pageable pageable);
+      List<Course> findByCredits(int credits);
+    }
+    courseRepository.findByCredits(3,PageRequest.of(0,4,Sort.Direction.ASC,"credits","name")); //Page includes list of courses, total number of entities, total number of page. page_number,page_size; getTotalElements, getTotalPages
+  ```
+  ```java
+    public interface StaffRepository extends PagingAndSortingRepository<Staff,Integer>{
+      Iterable<Staff> findAll(Sort sort);
+      Page<Staff> findAll(Pageable pageable)
+    }
+    staffRepository.findAll(new Sort(Sort.Direction.ASC,"member.firstname"));
+    staffRepository.findAll(PageRequest.of(0,5,new Sort(Sort.Direction.ASC,"member.lastname")));
+  ```
+4. Query by Example; JpaRepository<Department,Executor> -> QueryByExampleExecutor<Department>
+  ```java
+    departmentRepository.findOne(Example.of(new Department("Humanities",null)));//Find a department whose name was 'Humanities'
+    departmentRepository.findAll(Example.of(new Department(null,new Staff(new Person("John",null))))); //Find all departments whose chair has the first name of 'John'
+    departmentRepository.findAll(Example.of(new Department("sciences",null)),ExampleMatcher.matching().withIgnoreCase().withStringMatcher(StringMatcher.ENDING));
+  ```
+5. Optional<> query response - Introduced in Spring Boot 2.0
