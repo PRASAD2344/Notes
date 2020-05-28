@@ -36,6 +36,7 @@
 > ### **Serialization**
 1. Use of serialVersionUid and it's generation
 1. Members that can't be serialized - transient and static final
+1. Externalize
 
 > ### **REST Methods**
 1. PUT vs POST
@@ -162,6 +163,8 @@
 1. @SpringBootApplication
 1. Access spring context, spring context aware
 1. Ways to access json in rest controller
+1. Injecting collections
+1. Types of application context
 
 > ### **Spring Realtime Examples**
 1. Basic Project Setup
