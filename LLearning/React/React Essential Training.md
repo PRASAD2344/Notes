@@ -7,4 +7,4 @@
 4. react dependency - create component using react library
 5. react-dom dependency - take components and place them in dom
 6. react-scripts dependency - transpiling, webpack
-7. 
+7. JSX

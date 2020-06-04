@@ -3,4 +3,7 @@
 >### **Row vs Column Oriented DB**
 1. [Reference](https://www.youtube.com/watch?v=uMkVi4SDLbM&t=29s)
 2. User Form vs Showing Response Time over a period of time
-3. 
+
+
+[Article on kafka](https://techbeacon.com/app-dev-testing/what-apache-kafka-why-it-so-popular-should-you-use-it)
+

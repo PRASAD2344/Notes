@@ -1,4 +1,5 @@
 >### **Object Oriented Programming**
+1. Diamond Problem
 1. Extending 2 or More Interfaces
 1. Function Overloading - Method with parameters object, number, integer - Runtime Error, CompileTime Error or will run
 1. Anonymous Inner Class
@@ -75,6 +76,7 @@
 1. Volatile keyword
 1. Comparable vs Comparator
 1. How to invoke all methods of a class parallely
+1. StringBuilder vs StringBuffer
 
 > ### **Collections**
 1. HashMap Implementation
@@ -100,6 +102,8 @@
 1. ConcurrentHashMap with null key
 1. Linkedhashset vs hashset
 1. Get me a collection which is ordered, thread safe and will not allow duplicates
+1. Fail Fast vs Fail Safe
+1. SynchronizedMap
 
 > ### **Concurrency**
 1. ExecutorService and ThreadPool
@@ -120,6 +124,7 @@
 1. Wait in synchornized block
 1. How to avoid thread locks
 1. Exception in Callable implemenation and how to get result from implemenation
+1. ThreadLocal
 
 > ### **Java 8**
 1. Optional Type
@@ -188,6 +193,8 @@
 1. Log4j vs sfl4j
 1. Basic log configuration
 1. Logback
+1. MDC
+1. CorelationId in microservices
 
 > ### **JDBCTemplate**
 1. RowMapper vs ResultSetExtractor
