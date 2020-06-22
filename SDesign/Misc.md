@@ -16,6 +16,7 @@
 [Latency numbers every programmer should know](https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know)
 
 >### **Google Big Query**
+1. **TODO**
 1. [Reference](https://www.youtube.com/watch?v=EnHQqQUCYu4)
 1. [Reference](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 1. [Reference](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36632.pdf)
@@ -35,4 +36,3 @@
 1. BigQuery is designed to handle structured data using SQL
 1. MapReduce is a better choice when you want to process unstructured data programmatically
 2. Disk I/O throughput is the key to fullscan performance and we can improove it using In-memory database or flash storage, Columnar storage, and Parallel disk I/O
-3. 
