@@ -145,6 +145,8 @@
 1. How index work?
 
 > ### **Spring**
+1. Uses of Spring and Spring Boot
+1. Version of spring boot we are using
 1. IoC vs Dependency Injection
 1. Loose Coupling - ??
 1. Spring vs Spring Boot

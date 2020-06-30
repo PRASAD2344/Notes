@@ -4,7 +4,7 @@ Access modified in subclass when implementing interfaces will give us compile ti
 Extends allow us to create new classes based on existing ones
 
 Static - Fixed to a class and can't be personalized by any instances of that class
-Static methods/block can't acess instance variables
+Static methods/block can't access instance variables
 Static field set two times by different objects and then print. We will have same value for each class
 Number of runners in race using static field
 Why main method is static? - Because at start no objects exists and is an empty field
