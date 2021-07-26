@@ -1,10 +1,10 @@
 >### **[Toptal](https://www.toptal.com/nodejs/interview-questions)**
 1. [setTimeout vs setImmediate vs process.nextTick](http://voidcanvas.com/setimmediate-vs-nexttick-vs-settimeout/)
-2. Callback hell - refers to heavily nested callbacks that have become unweildy or unreadable
-3. uncaughtException handler at global level, better we can hanlde it using [domains](https://nodejs.org/api/domain.html). Please note here that both are in depreciation mode
+2. Callback hell - refers to heavily nested callbacks that have become unwieldy or unreadable
+3. uncaughtException handler at global level, better we can handle it using [domains](https://nodejs.org/api/domain.html). Please note here that both are in depreciation mode
 4. [cluster](https://nodejs.org/api/cluster.html) module to support for deployment on multiple-core systems
 5. What is typically the first argument passed to a Node.js callback handler? - Error object
-6. Improoving peformance by having `let` over `var`
+6. Improving performance by having `let` over `var`
 7. Block level variable declaration difference in chrome & node. Both using the same v8 engine
 8. REPL
 

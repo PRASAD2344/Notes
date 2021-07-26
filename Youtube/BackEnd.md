@@ -61,3 +61,29 @@
 5. Local Types - As part of changes for Record; Local versions of anything like Enum, Interface, Record
 6. Static methods or classes on inner classes
 7. Create a repo for hands-on
+
+> **[Map Reduce](http://nil.csail.mit.edu/6.824/2020/papers/mapreduce.pdf)**
+
+> **[Paseto Token](https://developer.okta.com/blog/2019/10/17/a-thorough-introduction-to-paseto)**
+
+> **Proof Of Possession**
+1. Additional check if the access token provided by the service is indeed provided to the service
+1. mTLS, we can't use it in micro-service architecture; Due to reverse-proxies, load-balancers. https://freedomben.medium.com/what-is-mtls-and-how-does-it-work-9dcdbf6c1e41
+2. DPoP, we can use it in micro-service architecture; Application layer encryption, we will encrypt request body
+and provide signature in the headers. https://darutk.medium.com/illustrated-dpop-oauth-access-token-security-enhancement-801680d761ff#:~:text=The%20section%203%20of%20RFC,is%20a%20candidate%20for%20PoP.
+   
+> [Summary Of Java New Features](https://medium.com/swlh/from-java-8-to-java-15-in-ten-minutes-f42d422a581e)
+
+> [ZGC: The Next Generation Low-Latency Garbage Collector](https://www.youtube.com/watch?v=88E86quLmQA)
+
+> **[Apache Pinot](https://www.youtube.com/watch?v=JV0WxBwJqKE&t=10s)**
+
+> **[Micronaut](https://www.youtube.com/watch?v=ceXt1JKk84U)**
+
+> **[Terraform - 1](https://www.youtube.com/watch?v=YXCuqueNQHk&t=141s)**
+
+> **[Jaeger - Distributed Log Tracing](https://www.youtube.com/watch?v=lJ_XAol-OKM&t=87s)**
+
+> **[Multi Version Concurrency Control](https://www.youtube.com/watch?v=qMSiMf4kSiM&t=53s)**
+
+

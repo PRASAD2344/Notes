@@ -21,4 +21,8 @@
     2. Recoverability - Non-Volatile Storage, Replication
     
 > **Consistency**
-1. 
+1. Same value across multiple copies
+2. Strongly consistency - Guarantee to read the latest version of data
+3. Weakly Consistency
+
+> **Map-Reduce**
