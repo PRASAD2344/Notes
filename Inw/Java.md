@@ -200,18 +200,19 @@
 
 > ### **JDBCTemplate**
 1. RowMapper vs ResultSetExtractor
-1. update vs saveorupdate
-1. preparedstatement vs statement
-1. vs Hibernate
+2. update vs saveorupdate
+3. preparedstatement vs statement
+4. vs Hibernate
 
 > ### **Misc**
 1. Test Driven Development
-1. Webserver
-1. Is functional programming a pattern or paradigm
-1. Gradle vs Maven
-1. Ehcache
-1. JUnit
-1. Fat JAR
-1. How JVM works
-1. JMeter
-1. Soap vs REST
+2. Webserver
+3. Is functional programming a pattern or paradigm
+4. Gradle vs Maven
+5. Ehcache
+6. JUnit
+7. Fat JAR
+8. How JVM works
+9. JMeter
+10. Soap vs REST
+11. SOLID Principles

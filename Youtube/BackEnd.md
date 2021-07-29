@@ -86,4 +86,15 @@ and provide signature in the headers. https://darutk.medium.com/illustrated-dpop
 
 > **[Multi Version Concurrency Control](https://www.youtube.com/watch?v=qMSiMf4kSiM&t=53s)**
 
-
+> **[Building microservices with AWS Lambda](https://www.youtube.com/watch?v=TOn0xhev0Uk&t=184s)**
+1. APPSync vs API Gateway vs Application Load Balancer
+2. Lambda invocation - sync vs async
+3. Probably API Gateway is wrapper around synchronous lambda invocation
+4. Who should handle the routing to backend logic? Either API Gateway or Lambda Function
+5. AWS Key Management Service(KMS) - for encryption
+6. AWS Systems Manager - Parameter Store - Centralized environment variables, secrets control, feature flags
+7. Lambda Layers - ReUsability
+8. AWS X-Ray - Trace Maps - API Gateway will add x-ray header
+9. Cap on lambda concurrency - Kill switch by setting concurrency to zero
+1. Function Policies(lambda invoke) - Execution Role(lambda calling stuff)
+2. AWS SAM Template

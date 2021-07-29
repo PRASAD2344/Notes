@@ -41,5 +41,8 @@
       1. 
 7. AMI - Amazon Machine Images
 8. EBS - Elastic Block Store
-9. 
+9. Autoscaling
+   1. Depends on cloudwatch
+   2. Need to create launch template
+   3. 
    
