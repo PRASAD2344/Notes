@@ -14,7 +14,7 @@
 14. setTimeout vs setImmediate in context of execution in normal scenario n other async call
 15. Let, var, const - re-declaring inside a block and using them outside it; What will happen
 16. Let, var, const - using them in lambda functions, which were declared & initialised outside block, inside other block
-17. Express vs fastify
+17. Express vs fastify 
 18. What is express, features we have used; Why express
 19. setTimeout before variable increment
 20. Deployment
